@@ -2,84 +2,33 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3f3f3;
+    background-color: #f4f4f4;
 }
-
 .container {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-header h1 {
-    color: #333;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-h2 {
-    color: #333;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-strong {
-    font-weight: bold;
-}
-
-h3 {
-    color: #555;
-    margin-bottom: 5px;
-}
-
-p {
-    margin: 5px 0;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
+.profile-picture {
     max-width: 200px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin-bottom: 20px;
 }
-/* Aggiungi stili per i bottoni social */
-.socialButton {
+.social-links {
+    margin-top: 20px;
+}
+.social-links a {
     display: inline-block;
     margin-right: 10px;
+    color: #333;
+    font-size: 24px;
+}
+.publications {
+    margin-top: 20px;
+}
+.publication-item {
     margin-bottom: 10px;
-    padding: 8px 16px;
-    font-size: 14px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
 }
-
-.socialButton.linkedin {
-    background-color: #0077b5;
-}
-
-.socialButton.twitter {
-    background-color: #1da1f2;
-}
-
-/* Aggiungi altri stili se necessario */

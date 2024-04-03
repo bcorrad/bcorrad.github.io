@@ -13,7 +13,7 @@ window.onload = function() {
 function updatePage(data) {
     document.getElementById('cvTitle').innerText = data['cv-title'];
     updateList('personal-info', 'personalInfoList', data);
-    createSocialButtons(data['personal-info']['socialLinks']);
+    createSocialButtons(data['personal-info']['Contacts']);
 }
 
 function updateList(section, listId, data) {
@@ -28,7 +28,8 @@ function updateList(section, listId, data) {
     } else {
         for (var key in sectionData) {
             var listItem = document.createElement('li');
-            listItem.innerHTML = '<strong>' + key.replace(/-/g, ' ') + ':</strong> ' + sectionData[key];
+            // listItem.innerHTML = '<strong>' + key.replace(/-/g, ' ') + ':</strong> ' + sectionData[key];
+            listItem.innerHTML = '<strong>' + sectionData[key] + '</strong>';
             list.appendChild(listItem);
         }
     }
