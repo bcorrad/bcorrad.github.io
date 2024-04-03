@@ -4,57 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-XMC8n+jXp7NwzgrEMG5LII/6CjwYxzrzqEdq7dC9iy5AVsuNUZBmFl2dcW6glMoi0AqMyFc7Bq5oCq2oIL2BPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Curriculum Vitae</h1>
-            <a href="index.html?lang=it">Italiano</a> | <a href="index.html?lang=en">English</a>
+            <h1 id="cvTitle">Curriculum Vitae</h1>
         </header>
         <section id="personal-info">
             <h2>Personal Information</h2>
-            <img src="profile_picture.jpg" alt="Profile Picture">
-            <ul>
-                <li><strong>Name:</strong> Mario Rossi</li>
-                <li><strong>Date of Birth:</strong> 01/01/1990</li>
-                <li><strong>Email:</strong> mario.rossi@example.com</li>
-                <li><strong>Phone:</strong> +1234567890</li>
-            </ul>
+            <img src="imgs/profile_picture.jpg" alt="Profile Picture">
+            <ul id="personalInfoList"></ul>
+            <div id="socialButtons"></div>
         </section>
         <section id="education">
             <h2>Education</h2>
-            <ul>
-                <li>
-                    <h3>Computer Science Degree</h3>
-                    <p>University of Rome</p>
-                    <p>Year of Graduation: 2015</p>
-                </li>
-            </ul>
+            <ul id="educationList"></ul>
         </section>
         <section id="experience">
             <h2>Professional Experience</h2>
-            <ul>
-                <li>
-                    <h3>Software Programmer</h3>
-                    <p>XYZ Srl</p>
-                    <p>2015 - Present</p>
-                    <ul>
-                        <li>Development of web and mobile applications</li>
-                        <li>Collaboration with multidisciplinary teams</li>
-                        <li>Software project management</li>
-                    </ul>
-                </li>
-            </ul>
+            <ul id="experienceList"></ul>
         </section>
         <section id="publications">
             <h2>Publications</h2>
-            <ul>
-                <li>Publication 1</li>
-                <li>Publication 2</li>
-                <li>Publication 3</li>
-            </ul>
+            <ul id="publicationsList"></ul>
         </section>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

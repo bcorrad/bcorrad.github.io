@@ -1,0 +1,27 @@
+{
+    "cv-title": "",
+    "personal-info": {
+      "name": "",
+      "dateOfBirth": "",
+      "email": "",
+      "phone": "",
+      "socialLinks": {
+        "linkedin": "",
+        "twitter": "",
+        "facebook": "",
+        "Google Scholar": ""
+      }
+    },
+    "education": {
+      "degree": "",
+      "university": "",
+      "year": ""
+    },
+    "experience": {
+      "position": "",
+      "company": "",
+      "years": "",
+      "responsibilities": []
+    },
+    "publications": []
+}
